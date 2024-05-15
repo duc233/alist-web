@@ -19,7 +19,7 @@
   "layouts": {
     "list": "List View",
     "grid": "Grid View",
-    "image": "Image View"
+    "image": "Image View1"
   },
   "no_images": "No images in the current folder",
   "load_more": "Load more",
@@ -111,7 +111,7 @@
     "global_default_layout_options": {
       "list": "List View",
       "grid": "Grid View",
-      "image": "Image View"
+      "image": "Image View2"
     },
     "position_of_header_navbar": "Position of header & nav bar",
     "position_of_header_navbar_options": {
