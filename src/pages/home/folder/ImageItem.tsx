@@ -90,7 +90,7 @@ export const ImageItem = (props: { obj: StoreObj; index: number }) => {
             shadow="$md"
             fallback={<CenterLoading size="lg" />}
             fallbackErr={objIcon}
-            src={rawLink(props.obj)}
+            src={props.obj.thumb}
             loading="lazy"
             cursor={
               !isMouseSupported() && (!checkboxOpen() || isShouldOpenItem())
