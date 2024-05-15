@@ -18,7 +18,7 @@
   },
   "layouts": {
     "list": "List View",
-    "grid": "Grid View"
+    "grid": "Image View"
   },
   "no_images": "No images in the current folder",
   "load_more": "Load more",
