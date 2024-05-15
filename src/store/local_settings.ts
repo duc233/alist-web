@@ -44,7 +44,7 @@ export const initialLocalSettings = [
   },
   {
     key: "grid_item_size",
-    default: "360",
+    default: "450",
     type: "number",
   },
   {
