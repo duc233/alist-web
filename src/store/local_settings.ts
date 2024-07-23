@@ -20,7 +20,7 @@ export const initialLocalSettings = [
   },
   {
     key: "global_default_layout",
-    default: "list",
+    default: "image",
     type: "select",
     options: ["list", "grid", "image"],
   },
@@ -55,7 +55,7 @@ export const initialLocalSettings = [
   },
   {
     key: "open_item_on_checkbox",
-    default: "direct",
+    default: "with_alt",
     type: "select",
     options: () =>
       isMobile
@@ -64,7 +64,7 @@ export const initialLocalSettings = [
   },
   {
     key: "select_with_mouse",
-    default: "disabled",
+    default: "open_item_with_dblclick",
     type: "select",
     options: ["disabled", "open_item_with_dblclick"],
     hidden: isMobile,
